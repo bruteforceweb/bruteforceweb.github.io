@@ -1,3 +1,15 @@
+@media (max-width: 575px) {
+  /* line 913, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
+  .about-img-mobile {
+    max-width: 100%;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  }
+}
+
+
 /* Theme Description
 -------------------------------------------------
 
