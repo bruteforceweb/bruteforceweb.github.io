@@ -11,6 +11,17 @@
   }
 }
 
+.footer-bg{
+  background-image: url(../img/gallery/footer_bg.png);
+}
+
+@media  (max-width: 575px){
+  .footer-bg{
+    background-image: url(../img/gallery/footer_bg_mob.png);
+  
+  }
+}
+
 
 /* Theme Description
 -------------------------------------------------
@@ -4810,6 +4821,7 @@ hr {
   line-height: 1.8;
 }
 
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 32, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_footer.scss */
   .footer-area .footer-pera p {
@@ -4883,12 +4895,10 @@ hr {
 }
 
 /* line 102, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_footer.scss */
-.footer-bottom-area .footer-border {
-  border-top: 1px solid #2d3544;
-  padding: 33px 0px 20px;
-}
+
 
 /* line 107, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_footer.scss */
+@media only screen and (min-width: 768px){
 .footer-bottom-area .footer-copy-right p {
   color: #000000;
   font-weight: 600;
@@ -4897,10 +4907,17 @@ hr {
   margin-bottom: 12px;
 }
 
+.footer-bottom-area .footer-border {
+  border-top: 1px solid #2d3544;
+  padding: 33px 0px 20px;
+}
+}
+
 @media (max-width: 575px) {
   /* line 107, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_footer.scss */
   .footer-bottom-area .footer-copy-right p {
     margin-bottom: 20px;
+    color: #070707 ;
   }
 }
 
