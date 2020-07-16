@@ -106,11 +106,12 @@
   color: #EF4343;
   text-transform: uppercase;
   cursor: pointer;
+  border-radius: 7px;
 }
 
 /* line 67, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_variables.scss */
 .boxed-btn:hover {
-  background: #EF4343;
+  background: #f57676;
   color: #fff !important;
   border: 1px solid #EF4343;
 }
@@ -500,10 +501,10 @@ hr {
 
 /* line 245, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
 .btn {
-  background: #ff3500;
+  background: #fa643e;
   font-family: Roboto;
   text-transform: capitalize;
-  padding: 27px 44px;
+  padding: 12px 20px;
   color: #fff;
   cursor: pointer;
   display: inline-block;
@@ -523,6 +524,7 @@ hr {
   border: 0;
   overflow: hidden;
   margin: 0;
+  border-radius: 7px;
 }
 
 /* line 271, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
