@@ -17,7 +17,7 @@
 
 @media  (max-width: 575px){
   .footer-bg{
-    background-image: url(../img/gallery/footer_bg_mob.png);
+    background-color: #0078ff;
   
   }
 }
