@@ -1,0 +1,82 @@
+.div-mob{
+   height: 1080px;
+   width: 1920px;
+   background-color: saddlebrown;
+}
+
+@media (max-width: 575px){
+    .div-mob{
+        height: 667px;
+        width: 375px;
+       background-color: white;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .back-img{
+        background-image: url(../img/gallery/boy.png);
+       
+
+
+        position: absolute;
+        width: 368px;
+        height: 328px;
+        left: 4px;
+        top: 339px;
+    }
+
+   .btn{
+    position: absolute;
+    width: 101px;
+    height: 36px;
+    left: 56px;
+    top: 326px;
+    
+    background: #289FEE;
+    color: white;
+    border-radius: 10px;
+   }
+
+    h1{
+        position: absolute;
+width: 188px;
+height: 56px;
+left: 44px;
+top: 153px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 56px;
+
+color: #E25007;
+    }
+
+
+    h2{
+        position: absolute;
+width: 190px;
+height: 84px;
+left: 44px;
+top: 209px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 200;
+font-size: 72px;
+line-height: 84px;
+
+color: #2D2D2D;
+    }
+
+
+    .logo-mob{
+        position: absolute;
+width: 89px;
+height: 55px;
+left: 16px;
+top: 15px;
+
+background: url(../img/logo/logo.png);
+    }
+}

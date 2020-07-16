@@ -20,6 +20,7 @@
 @media  (max-width: 575px){
   .footer-bg, .footer-tittle{
     background-color: #6ef8ff;
+    background-repeat: no-repeat;
     color: #ffffff
   }
 }
