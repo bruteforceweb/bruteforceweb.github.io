@@ -147,6 +147,7 @@ color: #FEFEFE;
     height: 667px;
     width: auto;
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 .title-mob{
