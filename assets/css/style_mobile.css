@@ -158,7 +158,7 @@ top: 150px;
 font-family: Roboto;
 font-style: normal;
 font-weight: 900;
-font-size: 14px;
+font-size: 18px;
 line-height: 16px;
 
 color: #201F1F;
@@ -187,4 +187,15 @@ height: 272px;
 top: 403px;
 
 background: url(../img/gallery/about_back_mob.png);
+}
+
+.vision-bg-mob{
+    position: relative;
+    max-width: 100%;
+width: 365px;
+height: 489px;
+left: 0px;
+top: 178px;
+
+background: url(../img/gallery/vision.png);
 }
