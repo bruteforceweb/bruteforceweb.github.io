@@ -5,11 +5,13 @@
 }
 
 @media (max-width: 575px){
+    .body{
+        overflow-x: hidden;
+    }
     .div-mob{
         height: 667px;
         width: 375px;
        background-color: white;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .back-img{
@@ -17,15 +19,14 @@
        
 
 
-        position: absolute;
-        width: 368px;
+        position: relative;
         height: 328px;
         left: 4px;
         top: 339px;
     }
 
-   .btn{
-    position: absolute;
+   .btn, a{
+    position: relative;
     width: 101px;
     height: 36px;
     left: 56px;
@@ -132,4 +133,57 @@ color: #FEFEFE;
         top:50px;
     }
    
+}
+
+
+
+/*
+   ABOUT PAGE STORY CLASSES
+   WRITTEN BY NISHANT KUMAR
+   DATE - 17-7-2020
+*/
+
+.story-mob-container{
+    height: 667px;
+    width: auto;
+    background-color: #fff;
+}
+
+.title-mob{
+    position: relative;
+left: 30px;
+top: 150px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 16px;
+
+color: #201F1F;
+}
+
+.desc-mob{
+    position: relative;
+
+left: 30px;
+top: 191px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 200;
+font-size: 14px;
+line-height: 16px;
+
+color: #0D0D0D;
+}
+
+.story-img{
+    position: absolute;
+width: 355px;
+height: 272px;
+left: 46px;
+top: 403px;
+
+background: url(../img/gallery/about_back_mob.png);
 }
