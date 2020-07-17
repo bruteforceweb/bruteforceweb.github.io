@@ -145,7 +145,6 @@ color: #FEFEFE;
 
 .story-mob-container{
     height: 667px;
-    width: auto;
     background-color: #fff;
     overflow-x: hidden;
 }
@@ -172,16 +171,15 @@ top: 191px;
 
 font-family: Roboto;
 font-style: normal;
-font-weight: 200;
+font-weight: 300;
 font-size: 14px;
 line-height: 16px;
 
-color: #0D0D0D;
+color: #000000;
 }
 
 .story-img{
     position: absolute;
-width: 355px;
 height: 272px;
 top: 403px;
 
