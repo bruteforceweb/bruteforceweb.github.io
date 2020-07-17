@@ -4,22 +4,23 @@
    background-color: saddlebrown;
 }
 
+
+/*
+    COMING SOON PAGE
+*/
 @media (max-width: 575px){
     .body{
         overflow-x: hidden;
     }
     .div-mob{
         height: 667px;
-        width: 375px;
        background-color: white;
-        background-repeat: no-repeat;
     }
     .back-img{
         background-image: url(../img/gallery/boy.png);
-       max-width: 100%;
-
-
+        background-repeat: no-repeat;
         position: relative;
+       max-width: 100%;
         height: 328px;
         left: 4px;
         top: 339px;
@@ -96,13 +97,14 @@ background: url(../img/logo/logo.png);
     }
 
     .footer-img{
+
     }
 
     .footer-box{
-    
+        position: relative;
         height: 272px;
         left: 0px;
-        top: 368px;
+        top: 395px;
 
         background: #031718;
     }
