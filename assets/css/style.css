@@ -27,6 +27,57 @@
 }
 
 
+
+/*
+   Mobile footer design
+*/
+@media (max-width: 575px){
+  .footer-mobile{
+  
+
+     
+  }
+
+  .footer-img{
+  }
+
+  .footer-box{
+  
+      height: 272px;
+      
+
+      background: #031718;
+  }
+  
+  .footer-logo-mob{
+      position: relative;
+
+left: 20px;
+top: 40px;
+background-repeat: no-repeat;
+background: url(../img/gallery/logo-white-txt.png);
+
+  }
+
+  .pmob{
+      font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 12px;
+
+color: #FEFEFE;
+  }
+
+  .m-add{
+      position: relative;
+      left:20px;
+      top:50px;
+  }
+ 
+}
+
+
 /* Theme Description
 -------------------------------------------------
 

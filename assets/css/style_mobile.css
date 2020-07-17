@@ -89,7 +89,7 @@ background: url(../img/logo/logo.png);
 */
 @media (max-width: 575px){
     .footer-mobile{
-       height: 640px;
+    
 
        
     }
@@ -98,7 +98,7 @@ background: url(../img/logo/logo.png);
     }
 
     .footer-box{
-        position: relative;
+    
         height: 272px;
         left: 0px;
         top: 368px;
