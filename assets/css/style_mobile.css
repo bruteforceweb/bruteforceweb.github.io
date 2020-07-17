@@ -145,6 +145,7 @@ color: #FEFEFE;
 
 .story-mob-container{
     height: 667px;
+    width: auto;
     background-color: #fff;
     overflow-x: hidden;
 }
@@ -180,6 +181,7 @@ color: #000000;
 
 .story-img{
     position: absolute;
+width: 355px;
 height: 272px;
 top: 403px;
 
