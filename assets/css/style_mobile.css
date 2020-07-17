@@ -89,26 +89,16 @@ background: url(../img/logo/logo.png);
 */
 @media (max-width: 575px){
     .footer-mobile{
-       position: absolute;
-       width:360px;
        height: 640px;
 
        
     }
 
     .footer-img{
-        position: absolute;
-        width: 433px;
-        height: 283px;
-        left: -65px;
-        top: 86px;
-
-        background: url(../img/gallery/contact_mobile.png);
     }
 
     .footer-box{
-        position: absolute;
-        width: 360px;
+        position: relative;
         height: 272px;
         left: 0px;
         top: 368px;
