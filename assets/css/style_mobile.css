@@ -16,7 +16,7 @@
     }
     .back-img{
         background-image: url(../img/gallery/boy.png);
-       
+       max-width: 100%;
 
 
         position: relative;
@@ -181,6 +181,7 @@ color: #000000;
 
 .story-img{
     position: absolute;
+    max-width: 100%;
 width: 355px;
 height: 272px;
 top: 403px;
