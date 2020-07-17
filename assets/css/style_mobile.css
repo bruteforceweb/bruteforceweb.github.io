@@ -80,3 +80,66 @@ top: 15px;
 background: url(../img/logo/logo.png);
     }
 }
+
+
+
+
+/*
+   Mobile footer design
+*/
+@media (max-width: 575px){
+    .footer-mobile{
+       position: absolute;
+       width:360px;
+       height: 640px;
+
+       
+    }
+
+    .footer-img{
+        position: absolute;
+        width: 433px;
+        height: 283px;
+        left: -65px;
+        top: 86px;
+
+        background: url(../img/gallery/contact_mobile.png);
+    }
+
+    .footer-box{
+        position: absolute;
+        width: 360px;
+        height: 272px;
+        left: 0px;
+        top: 368px;
+
+        background: #031718;
+    }
+    
+    .footer-logo-mob{
+        position: relative;
+
+left: 20px;
+top: 40px;
+background-repeat: no-repeat;
+background: url(../img/gallery/logo-white-txt.png);
+
+    }
+
+    .pmob{
+        font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 12px;
+
+color: #FEFEFE;
+    }
+
+    .m-add{
+        position: relative;
+        left:20px;
+        top:50px;
+    }
+   
+}
