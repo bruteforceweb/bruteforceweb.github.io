@@ -11,10 +11,13 @@
 @media (max-width: 575px){
     .body{
         overflow-x: hidden;
+        overflow: hidden;
+        max-width: 100%;
     }
     .div-mob{
         height: 667px;
        background-color: white;
+       max-width: 100%;
     }
     .back-img{
         background-image: url(../img/gallery/boy.png);
