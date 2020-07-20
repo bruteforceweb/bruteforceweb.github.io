@@ -1,3 +1,11 @@
+.bg-blue{
+    background-color: #B0EEFF;
+}
+
+.p{
+   text-align: justify;
+}
+
 .div-mob{
    height: 1080px;
    width: 1920px;
@@ -155,6 +163,56 @@ color: #FEFEFE;
    DATE - 17-7-2020
 */
 
+@media (max-width: 575px){
+    .desc-abt{
+        padding-right:50px;
+        text-align: justify;
+        position: relative;
+        padding-top: 30px;
+        
+        left: 30px;        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        
+        color: #000000;
+    }
+
+    .desc-mob{
+        position: relative;
+        text-align: justify;
+      
+        left: 30px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #000000;
+    }
+
+    .desc-vision{
+        position: relative;
+        text-align: justify;
+        padding-top: 100px;
+        padding-right: 45%;
+        left: 30px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #000000;
+    }
+
+
+}
 .story-mob-container{
     height: 667px;
     background-color: #fff;
@@ -164,8 +222,7 @@ color: #FEFEFE;
 .title-mob{
     position: relative;
 left: 30px;
-top: 150px;
-
+padding-top: 55px;
 font-family: Roboto;
 font-style: normal;
 font-weight: 900;
@@ -207,8 +264,6 @@ background: url(../img/gallery/about_back_mob.png);
 width: 365px;
 height: 489px;
 left: 0px;
-top: 178px;
-
 background: url(../img/gallery/vision.png);
 object-fit: cover;
 }
