@@ -111,19 +111,22 @@ background: url(../img/logo/logo.png);
         height: 272px;
         left: 0px;
         top: 395px;
-
+        width: 100%;
         background: #031718;
+        background-color: #031718;
     }
     
     .footer-logo-mob{
-        position: relative;
-
-left: 20px;
-top: 40px;
-background-repeat: no-repeat;
-background: url(../img/gallery/logo-white-txt.png);
+              
+        width: 0px;
+        max-width: 100%;
+        left: 20px;
+        top: 40px;
 
     }
+
+
+    
 
     .pmob{
         font-family: Roboto;
@@ -138,7 +141,8 @@ color: #FEFEFE;
     .m-add{
         position: relative;
         left:20px;
-        top:50px;
+        top:150px;
+        padding-top: 30px;
     }
    
 }
