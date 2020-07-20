@@ -163,7 +163,7 @@ color: #FEFEFE;
    DATE - 17-7-2020
 */
 
-@media (max-width: 575px){
+
     .desc-abt{
         padding-right:50px;
         text-align: justify;
@@ -212,7 +212,7 @@ color: #FEFEFE;
     }
 
 
-}
+
 .story-mob-container{
     height: 667px;
     background-color: #fff;
