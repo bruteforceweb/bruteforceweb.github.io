@@ -3,7 +3,9 @@
    width: 1920px;
    background-color: saddlebrown;
 }
-
+.body{
+    overflow-x: hidden;
+}
 
 /*
     COMING SOON PAGE
@@ -150,7 +152,6 @@ color: #FEFEFE;
 
 .story-mob-container{
     height: 667px;
-    width: auto;
     background-color: #fff;
     overflow-x: hidden;
 }
@@ -190,6 +191,7 @@ color: #000000;
 width: 355px;
 height: 272px;
 top: 403px;
+object-fit: cover;
 
 background: url(../img/gallery/about_back_mob.png);
 }
@@ -203,6 +205,7 @@ left: 0px;
 top: 178px;
 
 background: url(../img/gallery/vision.png);
+object-fit: cover;
 }
 
 
