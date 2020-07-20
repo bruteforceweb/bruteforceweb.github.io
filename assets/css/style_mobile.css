@@ -29,6 +29,7 @@
         height: 328px;
         left: 4px;
         top: 339px;
+        object-fit: cover;
     }
 
    .btn{
@@ -291,5 +292,13 @@ object-fit: cover;
       }
       .mob-nav-ico:hover{
           
+      }
+  }
+
+
+  @media(max-width:575px){
+      .mob-bg-black{
+          background-color: #020202;
+          color: #fff;
       }
   }
